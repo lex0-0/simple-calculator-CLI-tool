@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	var number1, number2 float64
 	var operator string
-	fmt.Println(" _____________________       ")
-	fmt.Println("|  _________________         |")
-	fmt.Println("| |                          | |")
+	fmt.Println(`                
+	            |  _________________         
+	            | |                          | |`)
 
 	fmt.Print("Enter the first  number : ")
 	fmt.Scan(&number1)
